@@ -1,0 +1,224 @@
+body {
+  font-family: 'Fredoka One', 'Fredericka the Great','Raleway', sans-serif;
+
+}
+
+#portfolio, #about, #contact {
+    height: 800px;
+}
+
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float:left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/***** HEADER *****/
+
+header {
+    height: 80px;
+    background-color: #1f202b;
+}
+
+header h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    color:#ffffff;
+    padding: 10px 0;
+}
+
+nav {
+    float: right;
+    padding: 10px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    color: #fff;
+    padding-left: 45px;
+}
+
+/****** BODY *****/
+
+#home {
+  background-image: url(../img/hero-background.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+#home {
+  height: 600px;
+  margin:0;
+}
+
+#home h2 {
+  background-color:#00000000;
+  color: #ffffff;
+  font-family:'Fredoka One',cursive;
+  font-size: 80px;
+  padding: 200px 50px;
+  margin:0;
+}
+
+#home h2 span {
+  color: #fa0075;
+}
+
+#portfolio {
+  background-color: #1f202b;
+  height: 1400px;
+  margin:0;
+}
+
+#portfolio h2 {
+  color: #fa0075;
+  font-family:'Fredoka One', cursive;
+  font-size:50px;
+  padding: 30px 440px;
+  margin:0;
+}
+
+#portfolio td {
+  background-color: #1f202b;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  color:#fff;
+  text-align: left;
+  margin:0;
+  padding: 15px 25px;
+}
+
+#portfolio img {
+  background-color: #1f202b;
+  padding: 15px 25px;
+  margin:0;
+}
+
+#about {
+  background-image: url(../img/about-me.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+#about {
+  height: 550px;
+  margin:0;
+}
+
+#about h2 {
+  color: #fa0075;
+  font-family:'Fredoka One', cursive;
+  font-size:50px;
+  padding: 30px 440px;
+  margin:0;
+}
+
+#about h3 {
+  font-size:30px;
+}
+
+#about .half-width {
+  font-size:22px;
+  padding: 2px 50px;
+}
+
+/****** FOOTER ******/
+
+#contact {
+  background-color: #1f202b;
+  height: 400px;
+  margin:0;
+}
+
+#contact h2 {
+  color: #fa0075;
+  font-family:'Fredoka One', cursive;
+  font-size:50px;
+  margin:0;
+  padding:30px 440px;
+}
+
+#contact h3 {
+  color: #fff;
+  font-size: 25px;
+  padding-left: 160px;
+  text-align: center;
+}
+
+#contact h4 {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size:20px;
+  margin:0;
+  padding: 240px 440px 0 440px;
+}
+
+#contact p {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  padding: 0 0 0 160px;
+  text-align: center;
+}
+
+#contact ul {
+  padding-left: 160px;
+}
+
+
+#contact ul li {
+  display: inline-block;
+  padding: 15px 10px;
+  text-decoration: none;
+  align-items: stretch;
+}
+
+#work {
+  background-color: #1f202b;
+  height: 1400px;
+  margin:0;
+}
+
+#work h2 {
+  color: #fa0075;
+  font-family:'Fredericka the Great', cursive;
+  font-size:100px;
+  padding: 50px 40px;
+  margin:0;
+}
+
+#work h2 span {
+  color: magenta;
+}
+
+#work td {
+  background-color: #1f202b;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  color:#fff;
+  text-align: left;
+  margin:0;
+  padding: 15px 25px;
+}
+
+#work img {
+  background-color: #1f202b;
+  padding: 15px 25px;
+  margin:0;
+}
